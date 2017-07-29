@@ -28,5 +28,5 @@ mongoose.connect(config.database);
 app.use(require('./todo-routes'));
 
 http.createServer(app).listen(port, function (err) {
-  console.log('listening in http://localhost:' + port);
+  console.log('listening in https://daydalus.herokuapp.com/');
 });
